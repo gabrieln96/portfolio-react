@@ -1,8 +1,10 @@
 import RedeSocial from "./RedeSocial";
+import InformationContainer from "./InformationContainer";
 
 import Avatar from "../img/avatar.png";
 
 import "../styles/components/sidebar.sass";
+
 
 
 
@@ -12,7 +14,7 @@ const Sidebar = () => {
         <img src={Avatar} alt="Gabriel Araújo"/>
         <p className="title">Desenvolverdor</p>
         <RedeSocial/>
-        <p>Informações para contato</p>
+        <InformationContainer/>
         <a href="" className="btn">
             Download Curriculo
         </a> 
