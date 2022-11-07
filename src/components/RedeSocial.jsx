@@ -6,7 +6,7 @@ const redeSocial = [
     {name: "linkedin", icon: <FaLinkedinIn/>},
     {name: "github", icon: <FaGithub/>},
     {name: "instagram", icon: <FaInstagram/>},
-]
+];
 
 const RedeSocial = () => {
     return (
@@ -17,8 +17,8 @@ const RedeSocial = () => {
                 </a>
             ))}
         </section>
-    )
-}
+    );
+};
 
 
 export default RedeSocial
